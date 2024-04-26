@@ -2,8 +2,6 @@
 
 <img src="https://allisonhorst.github.io/palmerpenguins/reference/figures/lter_penguins.png" alt="A cartoon image of the Chinstrap, Gentoo, and Adélie species of penguin." width="600">
 
-Artwork by [@allison_horst](https://twitter.com/allison_horst)
-
 This repository contains my analysis of the famous [Palmer Penguins dataset](https://allisonhorst.github.io/palmerpenguins/) (Horst AM, Hill AP, Gorman KB 2020). The data is shared under a [CC-0 license](https://creativecommons.org/public-domain/cc0/) which allows it to be freely used, to foster research and analysis. I utilised the [dataset found here](https://raw.githubusercontent.com/mwaskom/seaborn-data/master/penguins.csv) for the purposes of my analysis.
 
 This analysis was carried out for the [Principles of Data Analytics](https://www.gmit.ie/principles-of-data-analytics) module as part of the [Higher Diploma in Science in Data Analytics at ATU](https://www.gmit.ie/higher-diploma-in-science-in-computing-in-data-analytics).
@@ -27,3 +25,7 @@ The dataset contains measurements for 344 penguins spread over three islands on 
 - **sex:** whether the penguin was Female or Male
 
 <img src="https://allisonhorst.github.io/palmerpenguins/reference/figures/culmen_depth.png" alt="A cartoon image of a penguin indicating various bill measurements." width="600">
+
+## References
+- All artwork used is by [@allison_horst](https://twitter.com/allison_horst)
+- [Horst AM, Hill AP, Gorman KB (2020). palmerpenguins: Palmer Archipelago (Antarctica) penguin data](https://allisonhorst.github.io/palmerpenguins/)
