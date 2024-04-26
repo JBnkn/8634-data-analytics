@@ -24,7 +24,19 @@ The dataset contains measurements for 344 penguins spread over three islands on 
 - **body_mass_g:** body mass (in g) of the penguin
 - **sex:** whether the penguin was Female or Male
 
-<img src="https://allisonhorst.github.io/palmerpenguins/reference/figures/culmen_depth.png" alt="A cartoon image of a penguin indicating various bill measurements." width="600">
+## Datatypes
+The dataset contains two [primary datatypes](https://pbpython.com/pandas_dtypes.html) - **objects** and **float64s**.
+- **species:** object
+- **island:** object
+- **bill_length_mm:** float64
+- **bill_depth_mm:** float64
+- **flipper_length_mm:** float64
+- **body_mass_g:** float64
+- **sex:** object
+
+Species and Island are objects with three variables each. Sex is also an object, but given that it has two options and is a binary choice (excluding any considerations about intersex penguins), we could convert this into a bool variable if we wished (under the heading **Is Female**, the data could be True or False).
+
+The remaining datatypes are all floats and describe measurements of various penguin body parts.
 
 ## References
 - All artwork used is by [@allison_horst](https://twitter.com/allison_horst)
