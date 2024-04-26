@@ -34,7 +34,7 @@ The dataset contains two [primary datatypes](https://pbpython.com/pandas_dtypes.
 - **body_mass_g:** float64
 - **sex:** object
 
-Species and Island are objects with three variables each. Sex is also an object, but given that it has two options and is a binary choice (excluding any considerations about intersex penguins), we could convert this into a bool variable if we wished (under the heading **Is Female**, the data could be True or False).
+Species and Island are objects with three variables each. Sex is also an object, but given that it has two options and is a binary choice (excluding any considerations about intersex penguins), we could convert this into a bool variable if we wished (under the heading **Is Female**, the data could be *True* or *False*).
 
 The remaining datatypes are all floats and describe measurements of various penguin body parts.
 
