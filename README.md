@@ -15,7 +15,7 @@ I made use of the following modules as part of this project.
 - [warnings](https://docs.python.org/3/library/warnings.html)
 
 ## Dataset
-The dataset contains measurements for 344 penguins spread over three islands on the Palmer Archipelego, [a group of islands off the northwestern coast of the Antarctic Peninsula](https://en.wikipedia.org/wiki/Palmer_Archipelago). The [full dataset](https://cloud.r-project.org/web/packages/palmerpenguins/index.html) includes data points including Region, Egg Stage, Individual ID, and further comments. For the purposes of this analysis, I will be working with a simplified dataset which contains the following variables:
+The dataset contains measurements for 344 penguins spread over three islands on the Palmer Archipelego, [a group of islands off the northwestern coast of the Antarctic Peninsula](https://en.wikipedia.org/wiki/Palmer_Archipelago). The [full dataset](https://cloud.r-project.org/web/packages/palmerpenguins/index.html) contains various data points including Region, Egg Stage, Individual ID, and further comments. For the purposes of this analysis, I will be working with a simplified dataset which contains the following variables only:
 - **species:** Adélie, Chinstrap, or Gentoo
 - **island:** Biscoe, Dream, or Torgersen
 - **bill_length_mm:** length (in mm) of the penguin's culmen (upper ridge of the penguin's bill)
