@@ -12,6 +12,7 @@ I made use of the following modules as part of this project.
 - [pyplot](https://matplotlib.org/3.5.3/api/_as_gen/matplotlib.pyplot.html)
 - [seaborn](https://seaborn.pydata.org/tutorial/introduction.html)
 - [numpy](https://numpy.org/)
+- [scikit-learn](https://scikit-learn.org/stable/)
 - [warnings](https://docs.python.org/3/library/warnings.html)
 
 ## Dataset
@@ -46,3 +47,4 @@ The remaining datatypes are all floats and describe measurements of various peng
 - https://pbpython.com/
 - https://matplotlib.org/
 - https://numpy.org/
+- https://scikit-learn.org/stable/
