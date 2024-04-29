@@ -36,8 +36,13 @@ The dataset contains two [primary datatypes](https://pbpython.com/pandas_dtypes.
 
 Species and Island are objects with three variables each. Sex is also an object, but given that it has two options and is a binary choice (excluding any considerations about intersex penguins), we could convert this into a bool variable if we wished (under the heading **Is Female**, the data could be *True* or *False*).
 
-The remaining datatypes are all floats and describe measurements of various penguin body parts.
+The remaining datatypes are all floats and describe measurements of various penguin body parts. We could look at these datatypes individually (as [histograms](https://numpy.org/doc/stable/reference/generated/numpy.histogram.html), to see the distribution across a number of bins), or we could compare two or more datatypes against each other (on a [scatter plot](https://matplotlib.org/stable/api/_as_gen/matplotlib.pyplot.scatter.html) - a 2d scatter plot would be most immediately legible but it is possible to create a 3d scatter plot - or even more!).
 
 ## References
 - All artwork used is by [@allison_horst](https://twitter.com/allison_horst)
 - [Horst AM, Hill AP, Gorman KB (2020). palmerpenguins: Palmer Archipelago (Antarctica) penguin data](https://allisonhorst.github.io/palmerpenguins/)
+- I occasionally made use of [ChatGPT](https://chat.openai.com/) throughout the course of my analysis. I found it helpful when debugging code that wasn't working for me, and when I found complex pieces of applied code elsewhere, it was particularly helpful at explaining the code line-by-line which enabled me to make use of code for my own purposes.
+- I found the YouTube videos of [b001](https://www.youtube.com/@b001), [Indently](https://www.youtube.com/@Indently), [Bro Code](https://www.youtube.com/@BroCodez), and [Koolac](https://www.youtube.com/@Koolac) to be very helpful at practically explaining a variety of Python topics and concepts that I came across throughout the course of my research
+- https://pbpython.com/
+- https://matplotlib.org/
+- https://numpy.org/
